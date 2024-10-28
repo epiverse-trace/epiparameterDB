@@ -18,6 +18,6 @@ test_that(".read_db fails correctly when jsonlite is not installed", {
 })
 
 test_that(".is_pkg_installed works as expected", {
-  expect_true(.is_pkg_installed(package = "distributional"))
+  expect_true(.is_pkg_installed(package = "methods"))
   expect_false(.is_pkg_installed(package = "jsonlit"))
 })

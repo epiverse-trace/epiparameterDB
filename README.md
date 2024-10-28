@@ -103,20 +103,21 @@ languages, but also differs from them in the following aspects:
 
 ``` r
 citation("epiparameterDB")
-#> 
 #> To cite package 'epiparameterDB' in publications use:
 #> 
-#>   Lambert J, Kucharski A, Tamayo C (????). _epiparameterDB: Database of
-#>   epidemiological parameters_.
-#>   https://github.com/epiverse-trace/epiparameterDB/,
-#>   https://epiverse-trace.github.io/epiparameterDB/.
+#>   Lambert J, Kucharski A, Tamayo C (2024). _epiparameterDB: Database of
+#>   epidemiological parameters_. R package version 0.0.0.9000,
+#>   https://epiverse-trace.github.io/epiparameterDB/,
+#>   <https://github.com/epiverse-trace/epiparameterDB/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {epiparameterDB: Database of epidemiological parameters},
 #>     author = {Joshua W. Lambert and Adam Kucharski and Carmen Tamayo},
-#>     note = {https://github.com/epiverse-trace/epiparameterDB/,
+#>     year = {2024},
+#>     note = {R package version 0.0.0.9000, 
 #> https://epiverse-trace.github.io/epiparameterDB/},
+#>     url = {https://github.com/epiverse-trace/epiparameterDB/},
 #>   }
 ```

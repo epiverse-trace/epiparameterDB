@@ -20,7 +20,7 @@
     path = system.file(
       "extdata",
       "parameters.json",
-      package = "epiparameter",
+      package = "epiparameterDB",
       mustWork = TRUE
     )
   )

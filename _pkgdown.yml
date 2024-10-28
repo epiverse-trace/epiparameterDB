@@ -10,3 +10,15 @@ reference:
     desc: Data stored in the package
     contents:
     - epiparameterDB
+
+articles:
+
+- title: Parameter library
+  navbar: Epiparameter Data
+  contents:
+  - database
+
+- title: Developer Documentation
+  navbar: Developer Documentation
+  contents:
+  - design-principles

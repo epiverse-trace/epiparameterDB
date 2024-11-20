@@ -8,7 +8,7 @@ message: 'To cite package "epiparameterDB" in publications use:'
 type: software
 license: CC0-1.0
 title: 'epiparameterDB: Database of epidemiological parameters'
-version: 0.0.0.9000
+version: 0.1.0
 identifiers:
 - type: url
   value: https://epiverse-trace.github.io/epiparameterDB/
@@ -35,6 +35,12 @@ contact:
   given-names: Joshua W.
   email: joshua.lambert@lshtm.ac.uk
   orcid: https://orcid.org/0000-0001-5218-3046
+keywords:
+- data-package
+- epidemiology
+- epiverse
+- r
+- r-package
 references:
 - type: software
   title: 'R: A Language and Environment for Statistical Computing'

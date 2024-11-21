@@ -7,7 +7,7 @@ cff-version: 1.2.0
 message: 'To cite package "epiparameterDB" in publications use:'
 type: software
 license: CC0-1.0
-title: 'epiparameterDB: Database of epidemiological parameters'
+title: 'epiparameterDB: Database of Epidemiological Parameters'
 version: 0.1.0
 identifiers:
 - type: url

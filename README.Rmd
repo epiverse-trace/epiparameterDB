@@ -36,6 +36,12 @@ using this package. `epiparameter::epiparameter_db()` function formats the epide
 
 ## Installation
 
+You can install `{epiparameterDB}` from CRAN with:
+
+``` r
+install.packages("epiparameterDB")
+```
+
 You can install the development version of `{epiparameterDB}` from
 [GitHub](https://github.com/) with:
 

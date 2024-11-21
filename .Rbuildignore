@@ -14,3 +14,4 @@
 ^pkgdown$
 ^tools$
 ^data-raw$
+^cran-comments\.md$

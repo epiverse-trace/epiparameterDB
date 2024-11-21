@@ -10,7 +10,7 @@
 <!-- badges: start -->
 
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
 [![R-CMD-check](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
@@ -37,6 +37,12 @@ Medicine](https://www.lshtm.ac.uk/) as part of
 [Epiverse-TRACE](https://data.org/initiatives/epiverse/).
 
 ## Installation
+
+You can install `{epiparameterDB}` from CRAN with:
+
+``` r
+install.packages("epiparameterDB")
+```
 
 You can install the development version of `{epiparameterDB}` from
 [GitHub](https://github.com/) with:
@@ -92,8 +98,8 @@ This project is related to other existing projects in R or other
 languages, but also differs from them in the following aspects:
 
 - `{epireview}`: An R package containing epidemiological parameters for
-  a range of priority pathogens (e.g. Ebola, Lassa SARS). These can be
-  read into R as tabular data. To fully utilise data stored in
+  a range of priority pathogens (e.g. Ebola, Lassa and SARS). These can
+  be read into R as tabular data. To fully utilise data stored in
   `{epireview}` we recommend converting the epidemiological parameter of
   choice into an `<epiparameter>` object using
   `epiparameter::as_epiparameter()`, see [`data_from_epireview`
@@ -106,17 +112,17 @@ citation("epiparameterDB")
 #> To cite package 'epiparameterDB' in publications use:
 #> 
 #>   Lambert J, Kucharski A, Tamayo C (2024). _epiparameterDB: Database of
-#>   epidemiological parameters_. R package version 0.0.0.9000,
+#>   Epidemiological Parameters_. R package version 0.1.0,
 #>   https://epiverse-trace.github.io/epiparameterDB/,
 #>   <https://github.com/epiverse-trace/epiparameterDB/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
-#>     title = {epiparameterDB: Database of epidemiological parameters},
+#>     title = {epiparameterDB: Database of Epidemiological Parameters},
 #>     author = {Joshua W. Lambert and Adam Kucharski and Carmen Tamayo},
 #>     year = {2024},
-#>     note = {R package version 0.0.0.9000, 
+#>     note = {R package version 0.1.0, 
 #> https://epiverse-trace.github.io/epiparameterDB/},
 #>     url = {https://github.com/epiverse-trace/epiparameterDB/},
 #>   }

@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 # `{epiparameterDB}` <img src="man/figures/logo.svg" align="right" width="120" alt="" />
 
 <!-- badges: start -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
 [![R-CMD-check](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
@@ -83,7 +83,7 @@ Please note that the `{epiparameterDB}` project is released with a [Contributor 
 
 This project is related to other existing projects in R or other languages, but also differs from them in the following aspects:
 
-- `{epireview}`: An R package containing epidemiological parameters for a range of priority pathogens (e.g. Ebola, Lassa SARS). These can be read into R as tabular data. To fully utilise data stored in `{epireview}` we recommend converting the epidemiological parameter of choice into an `<epiparameter>` object using `epiparameter::as_epiparameter()`, see [`data_from_epireview` vignette](https://epiverse-trace.github.io/epiparameter/articles/data_from_epireview.html). 
+- `{epireview}`: An R package containing epidemiological parameters for a range of priority pathogens (e.g. Ebola, Lassa and SARS). These can be read into R as tabular data. To fully utilise data stored in `{epireview}` we recommend converting the epidemiological parameter of choice into an `<epiparameter>` object using `epiparameter::as_epiparameter()`, see [`data_from_epireview` vignette](https://epiverse-trace.github.io/epiparameter/articles/data_from_epireview.html). 
 
 ## Citing this package
 

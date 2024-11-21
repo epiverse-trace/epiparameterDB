@@ -5,7 +5,7 @@
 \alias{epiparameterDB-package}
 \title{epiparameterDB: Database of epidemiological parameters}
 \description{
-A data package containing a database of epidemiological parameters. It stores the data for the {epiparameter} R package. Epidemiological parameter estimates are extracted from the literature.
+A data package containing a database of epidemiological parameters. It stores the data for the 'epiparameter' R package. Epidemiological parameter estimates are extracted from the literature.
 }
 \seealso{
 Useful links:

@@ -5,7 +5,7 @@
 \alias{epiparameterDB-package}
 \title{epiparameterDB: Database of epidemiological parameters}
 \description{
-Your package description. It must end with a period (".") and include relevant bibliographical references if applicable, using the following format: Author et al. (2023) \doi{10.5281/zenodo.6619350}.
+A data package containing a database of epidemiological parameters. It stores the data for the {epiparameter} R package. Epidemiological parameter estimates are extracted from the literature.
 }
 \seealso{
 Useful links:

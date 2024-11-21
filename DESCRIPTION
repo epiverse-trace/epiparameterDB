@@ -1,5 +1,5 @@
 Package: epiparameterDB
-Title: Database of epidemiological parameters
+Title: Database of Epidemiological Parameters
 Version: 0.1.0
 Authors@R: c(
     person("Joshua W.", "Lambert", , "joshua.lambert@lshtm.ac.uk", role = c("cre", "aut", "cph"),

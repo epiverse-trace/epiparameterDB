@@ -12,9 +12,9 @@ version: 0.1.0
 identifiers:
 - type: url
   value: https://epiverse-trace.github.io/epiparameterDB/
-abstract: 'Your package description. It must end with a period (".") and include relevant
-  bibliographical references if applicable, using the following format: Author et
-  al. (2023) <https://doi.org/10.5281/zenodo.6619350>.'
+abstract: A data package containing a database of epidemiological parameters. It stores
+  the data for the 'epiparameter' R package. Epidemiological parameter estimates are
+  extracted from the literature.
 authors:
 - family-names: Lambert
   given-names: Joshua W.

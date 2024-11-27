@@ -11,7 +11,6 @@ A data package containing a database of epidemiological parameters. It stores th
 Useful links:
 \itemize{
   \item \url{https://github.com/epiverse-trace/epiparameterDB/}
-  \item \url{https://epiverse-trace.github.io/epiparameterDB/}
   \item Report bugs at \url{https://github.com/epiverse-trace/epiparameterDB/issues}
 }
 

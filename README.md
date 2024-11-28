@@ -62,7 +62,7 @@ data(package = "epiparameterDB")
 ## Contributing to library of epidemiological parameters
 
 Parameters can be added to the [JSON file holding the
-data](https://github.com/epiverse-trace/epiparameter/blob/main/inst/extdata/parameters.json)
+data](https://github.com/epiverse-trace/epiparameterDB/blob/main/inst/extdata/parameters.json)
 base directly via a Pull Request.
 
 You can find explanation of accepted entries for each column in the

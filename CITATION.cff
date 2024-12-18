@@ -2,13 +2,13 @@
 # CITATION file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
 # --------------------------------------------
- 
+
 cff-version: 1.2.0
 message: 'To cite package "epiparameterDB" in publications use:'
 type: software
 license: CC0-1.0
 title: 'epiparameterDB: Database of Epidemiological Parameters'
-version: 0.1.0
+version: 0.1.0.9000
 doi: 10.32614/CRAN.package.epiparameterDB
 abstract: A data package containing a database of epidemiological parameters. It stores
   the data for the 'epiparameter' R package. Epidemiological parameter estimates are

@@ -9,9 +9,7 @@ type: software
 license: CC0-1.0
 title: 'epiparameterDB: Database of Epidemiological Parameters'
 version: 0.1.0
-identifiers:
-- type: url
-  value: https://epiverse-trace.github.io/epiparameterDB/
+doi: 10.32614/CRAN.package.epiparameterDB
 abstract: A data package containing a database of epidemiological parameters. It stores
   the data for the 'epiparameter' R package. Epidemiological parameter estimates are
   extracted from the literature.
@@ -28,6 +26,7 @@ authors:
   given-names: Carmen
   email: carmen.tamayo-cuartero@lshtm.ac.uk
   orcid: https://orcid.org/0000-0003-4184-2864
+repository: https://CRAN.R-project.org/package=epiparameterDB
 repository-code: https://github.com/epiverse-trace/epiparameterDB
 url: https://github.com/epiverse-trace/epiparameterDB/
 contact:

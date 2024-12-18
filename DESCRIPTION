@@ -13,7 +13,8 @@ Description: A data package containing a database of epidemiological
     parameters. It stores the data for the 'epiparameter' R package.
     Epidemiological parameter estimates are extracted from the literature.
 License: CC0
-URL: https://github.com/epiverse-trace/epiparameterDB/
+URL: https://github.com/epiverse-trace/epiparameterDB/,
+    https://epiverse-trace.github.io/epiparameterDB/
 BugReports: https://github.com/epiverse-trace/epiparameterDB/issues
 Depends: 
     R (>= 4.0.0)

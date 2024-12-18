@@ -16,6 +16,7 @@ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.or
 coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14514630.svg)](https://doi.org/10.5281/zenodo.14514630)
 <!-- badges: end -->
 
 `{epiparameterDB}` provides a database of epidemiological parameters. It
@@ -112,8 +113,7 @@ citation("epiparameterDB")
 #> To cite package 'epiparameterDB' in publications use:
 #> 
 #>   Lambert J, Kucharski A, Tamayo C (2024). _epiparameterDB: Database of
-#>   Epidemiological Parameters_. R package version 0.1.0,
-#>   https://epiverse-trace.github.io/epiparameterDB/,
+#>   Epidemiological Parameters_. R package version 0.1.0.9000,
 #>   <https://github.com/epiverse-trace/epiparameterDB/>.
 #> 
 #> A BibTeX entry for LaTeX users is
@@ -122,8 +122,7 @@ citation("epiparameterDB")
 #>     title = {epiparameterDB: Database of Epidemiological Parameters},
 #>     author = {Joshua W. Lambert and Adam Kucharski and Carmen Tamayo},
 #>     year = {2024},
-#>     note = {R package version 0.1.0, 
-#> https://epiverse-trace.github.io/epiparameterDB/},
+#>     note = {R package version 0.1.0.9000},
 #>     url = {https://github.com/epiverse-trace/epiparameterDB/},
 #>   }
 ```

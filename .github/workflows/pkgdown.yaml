@@ -64,8 +64,12 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::pkgdown, local::.
+          extra-packages: any::remotes, local::.
           needs: website
+
+      - name: Install dev pkgdown
+        run: remotes::install_github("r-lib/pkgdown")
+        shell: Rscript {0}
 
       - name: Build site
         run: pkgdown::build_site_github_pages(new_process = FALSE, install = FALSE)

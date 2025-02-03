@@ -185,7 +185,7 @@
             }
           }
         },
-        "required": ["prob_distribution"],
+        "required": ["prob_distribution", "parameters", "offset"],
         "if": {
           "properties": {
             "prob_distribution": { "const": "norm" }

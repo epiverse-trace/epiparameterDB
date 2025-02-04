@@ -2,7 +2,7 @@ test_that(".read_db works as expected when jsonlite is installed", {
   db <- .read_db()
   expect_s3_class(db, class = "epiparameterDB")
   expect_type(db, type = "list")
-  expect_length(db, 125)
+  expect_length(db, 133)
 })
 
 

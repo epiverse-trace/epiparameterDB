@@ -11699,7 +11699,7 @@
     "sd_ci_limits": [2, 4.6],
     "sd_ci": 95,
     "quantile_values": [5.2, 7.7, 9.5, 11.7, 16.2],
-    "quantile_names": ["2.5", "25", "50", "75", "97.5"],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
   },
   "citation": {
     "author": [
@@ -11761,7 +11761,7 @@
   },
   "summary_statistics": {
     "quantile_values": [4.1, 7.4, 9.2, 11.2, 15.8],
-    "quantile_names": ["2.5", "25", "50", "75", "97.5"],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
   },
   "citation": {
     "author": [

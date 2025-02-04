@@ -183,6 +183,11 @@
                 "type": ["number", "null"]
               }
             }
+          },
+          "offset": {
+            "description": "A number to shift the probability distribution left or right on the x-axis. If no offset is reported put the default value of 0.",
+            "examples": [0, 5],
+            "type": "number"
           }
         },
         "required": ["prob_distribution", "parameters", "offset"],

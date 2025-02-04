@@ -11674,5 +11674,532 @@
     "phase_bias_adjusted": false
   },
   "notes": "Case fatality risk is given in deaths per 1,000 cases. It was calculated as a cumulative case fatality ratio. CFR is a population-wide estimate. Odds of chikungunya-related death were not significantly different between males and females. Odds of chikungunya-related death were significantly higher for 55-74 years old, and >75 years old compared to <18."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "incubation period",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 2.22,
+      "shape_ci_limits": [1.38, 3.22],
+      "shape_ci": 95,
+      "scale": 6.56,
+      "scale_ci_limits": [5.01, 8.44],
+      "scale_ci": 95
+    },
+    "offset": 4
+  },
+  "summary_statistics": {
+    "mean": 9.8,
+    "mean_ci_limits": [8.5, 11.5],
+    "mean_ci": 95,
+    "sd": 2.9,
+    "sd_ci_limits": [2, 4.6],
+    "sd_ci": 95,
+    "quantile_values": [5.2, 7.7, 9.5, 11.7, 16.2],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"],
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 15,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": false,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "This estimate does not account for double-intervalc censoring. These estimates are similar to the distribution parameter estimates fitted to the same data accounting for double-interval censoring."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "incubation period",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 2.08,
+      "shape_ci_limits": [1.31, 3.18],
+      "shape_ci": 95,
+      "scale": 6.24,
+      "scale_ci_limits": [4.63, 7.92],
+      "scale_ci": 95
+    },
+    "offset": 4
+  },
+  "summary_statistics": {
+    "quantile_values": [4.1, 7.4, 9.2, 11.2, 15.8],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"],
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 15,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": true,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "This estimate accounts for double-intervalc censoring. Only the Weibull distribution is included in the database from the paper as this was the baseline (best-fit) distribution in the non-censored analysis, however, no goodness-of-fit is reported for the comparison of double-censored distributions. Parameter estimates are very similar between the non-censored and double-censored analysis. Mean and standard deviation summary statistics are not reported for the double-censored fits."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "serial interval",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 1.63,
+      "shape_ci_limits": [1.20, 2.12],
+      "shape_ci": 95,
+      "scale": 18.29,
+      "scale_ci_limits": [14.35, 22.76],
+      "scale_ci": 95
+    },
+    "offset": 1
+  },
+  "summary_statistics": {
+    "mean": 17.5,
+    "mean_ci_limits": [14.1, 21.5],
+    "mean_ci": 95,
+    "sd": 10.5,
+    "sd_ci_limits": [7.8, 15.1],
+    "sd_ci": 95,
+    "quantile_values": [3.0, 9.5, 15.6, 23.4, 42.6],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 32,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": false,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated from a dataset (dataset 1) by pooling together symptom onset dates for 32 infector–infectee transmission links from 2 household outbreaks in Sudan in 2005 (n = 13) and in Central African Republic in 2021–2022 (n = 19)."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "serial interval",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 2.17,
+      "shape_ci_limits": [1.29, 3.19],
+      "shape_ci": 95,
+      "scale": 6.10,
+      "scale_ci_limits": [4.38, 8.38],
+      "scale_ci": 95
+    },
+    "offset": 6
+  },
+  "summary_statistics": {
+    "mean": 11.4,
+    "mean_ci_limits": [9.9, 13.5],
+    "mean_ci": 95,
+    "sd": 2.8,
+    "sd_ci_limits": [1.8, 4.8],
+    "sd_ci": 95,
+    "quantile_values": [7.1, 9.4, 11.1, 13.2, 17.6],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 11,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": false,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated from a dataset (dataset 2) consisted of 11 infector–infectee transmission links from a hospital-associated outbreak in the DRC in 2003. The log-normal distribution had a marginally better fit than the Weibull distribution, but the paper reports the Weibull for consistency between serial interval estimates."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "serial interval",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 1.64,
+      "shape_ci_limits": [1.15, 2.13],
+      "shape_ci": 95,
+      "scale": 17.79,
+      "scale_ci_limits": [13.68, 21.9],
+      "scale_ci": 95
+    },
+    "offset": 1
+  },
+  "summary_statistics": {
+    "quantile_values": [2.7, 9.0, 14.9, 22.7, 41.1],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 32,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": true,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated from a dataset (dataset 1) by pooling together symptom onset dates for 32 infector–infectee transmission links from 2 household outbreaks in Sudan in 2005 (n = 13) and in Central African Republic in 2021–2022 (n = 19). Only the Weibull distribution is included in the database from the paper as this was the baseline (best-fit) distribution in the non-censored analysis, however, no goodness-of-fit is reported for the comparison of double-censored distributions. Mean and standard deviation summary statistics are not reported for the double-censored fits."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "serial interval",
+  "probability_distribution": {
+    "prob_distribution": "weibull",
+    "parameters": {
+      "shape": 2.21,
+      "shape_ci_limits": [1.07, 3.36],
+      "shape_ci": 95,
+      "scale": 5.76,
+      "scale_ci_limits": [3.88, 7.64],
+      "scale_ci": 95
+    },
+    "offset": 6
+  },
+  "summary_statistics": {
+    "quantile_values": [6.9, 9.0, 10.7, 12.5, 16.8],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 11,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": true,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated from a dataset (dataset 2) consisted of 11 infector–infectee transmission links from a hospital-associated outbreak in the DRC in 2003. The log-normal distribution had a marginally better fit than the Weibull distribution, but the paper reports the Weibull for consistency between serial interval estimates. Only the Weibull distribution is included in the database from the paper, the log-normal distribution has a slightly better fit than the Weibull for dataset 2 but the Weibull was used as the baseline distribution in the non-censored analysis, however, no goodness-of-fit is reported for the comparison of double-censored distributions. Mean and standard deviation summary statistics are not reported for the double-censored fits."
+},
+
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "generation time",
+  "probability_distribution": {
+    "prob_distribution": "gamma",
+    "parameters": {
+      "shape": 3.42,
+      "shape_ci_limits": [1.48, 6.64],
+      "shape_ci": 95,
+      "scale": 5.25,
+      "scale_ci_limits": [2.42, 9.62],
+      "scale_ci": 95
+    },
+    "offset": 1
+  },
+  "summary_statistics": {
+    "mean": 17.2,
+    "mean_ci_limits": [14.1, 20.9],
+    "mean_ci": 95,
+    "sd": 9.0,
+    "sd_ci_limits": [6.0, 12.9],
+    "sd_ci": 95,
+    "quantile_values": [4.9, 10.6, 15.5, 21.9, 39.1],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 32,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": false,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated using dataset 1, the same data on infector–infectee pairs used for the estimate of the serial interval from the same paper. The paper compared gamma, Weibull and log-normal distribution to estimate the generation time, but goodness-of-fit is not reported and the gamma distribution is reported as the baseline. The estimated pre-symptomatic transmission was 20.4% (12.5% – 28.1% 95% CI)."
+},
+{
+  "disease": "Mpox",
+  "pathogen": "Monkeypox Virus",
+  "epi_name": "generation time",
+  "probability_distribution": {
+    "prob_distribution": "gamma",
+    "parameters": {
+      "shape": 28.74,
+      "shape_ci_limits": [2.03, 166.05],
+      "shape_ci": 95,
+      "scale": 1.01,
+      "scale_ci_limits": [0.05, 4.27],
+      "scale_ci": 95
+    },
+    "offset": 1
+  },
+  "summary_statistics": {
+    "mean": 11.3,
+    "mean_ci_limits": [9.4, 14.0],
+    "mean_ci": 95,
+    "sd": 2.7,
+    "sd_ci_limits": [0.7, 6.7],
+    "sd_ci": 95,
+    "quantile_values": [6.9, 9.3, 10.9, 12.9, 17.5],
+    "quantile_names": ["2.5", "25", "50", "75", "97.5"]
+  },
+  "citation": {
+    "author": [
+      {
+        "given": "Valentina",
+        "family": "Marziano"
+      },
+      {
+        "given": "Giorgio",
+        "family": "Guzzetta"
+      },
+      {
+        "given": "Ira",
+        "family": "Longini"
+      },
+      {
+        "given": "Stefano",
+        "family": "Merler1"
+      }
+    ],
+    "title": "Epidemiologic Quantities for Monkeypox Virus Clade I from Historical Data with Implications for Current Outbreaks, Democratic Republic of the Congo",
+    "journal": "Emerging Infectious Diseases",
+    "year": 2024,
+    "pmid": 39255234,
+    "doi": "10.3201/eid3010.240665"
+  },
+  "metadata": {
+    "units": "days",
+    "sample_size": 11,
+    "region": "Democratic Republic of the Congo",
+    "transmission_mode": "mixed",
+    "extrinsic": false,
+    "inference_method": "bayesian"
+  },
+  "method_assessment": {
+    "truncation": null,
+    "discretised": false,
+    "censored": false,
+    "right_truncated": false,
+    "phase_bias_adjusted": false
+  },
+  "notes": "Estimated using dataset 2, the same data on infector–infectee pairs used for the estimate of the serial interval from the same paper. The estimated pre-symptomatic transmission was 17.4% (95% CI 0.0% – 54.5%)."
 }
 ]

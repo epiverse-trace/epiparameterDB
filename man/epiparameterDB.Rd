@@ -8,7 +8,7 @@
 \subsection{\code{epiparameterDB}}{
 
 A \code{list} of epidemiological parameters read from \code{extdata/parameters.json}
-with 125 database entries. The object
+with 133 database entries. The object
 is tagged with the class attribute \verb{<epiparamterDB>} to validate the
 parameter library has been loaded using the \code{{epiparameterDB}} package.
 }

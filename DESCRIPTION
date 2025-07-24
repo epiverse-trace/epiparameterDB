@@ -7,7 +7,9 @@ Authors@R: c(
     person("Adam", "Kucharski", , "adam.kucharski@lshtm.ac.uk", role = "aut",
            comment = c(ORCID = "0000-0001-8814-9421")),
     person("Carmen", "Tamayo", , "carmen.tamayo-cuartero@lshtm.ac.uk", role = "aut",
-           comment = c(ORCID = "0000-0003-4184-2864"))
+           comment = c(ORCID = "0000-0003-4184-2864")),
+    person("London School of Hygiene and Tropical Medicine, LSHTM", role = "cph",
+           comment = c(ROR = "00a0jsq62"))
   )
 Description: A data package containing a database of epidemiological
     parameters. It stores the data for the 'epiparameter' R package.

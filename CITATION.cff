@@ -2,7 +2,7 @@
 # CITATION file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
 # --------------------------------------------
-
+ 
 cff-version: 1.2.0
 message: 'To cite package "epiparameterDB" in publications use:'
 type: software
@@ -10,6 +10,9 @@ license: CC0-1.0
 title: 'epiparameterDB: Database of Epidemiological Parameters'
 version: 0.1.0.9000
 doi: 10.32614/CRAN.package.epiparameterDB
+identifiers:
+- type: url
+  value: https://epiverse-trace.github.io/epiparameterDB/
 abstract: A data package containing a database of epidemiological parameters. It stores
   the data for the 'epiparameter' R package. Epidemiological parameter estimates are
   extracted from the literature.
@@ -50,7 +53,7 @@ references:
   institution:
     name: R Foundation for Statistical Computing
     address: Vienna, Austria
-  year: '2024'
+  year: '2025'
   version: '>= 4.0.0'
 - type: software
   title: DT
@@ -66,7 +69,7 @@ references:
     email: joe@posit.co
   - family-names: Tan
     given-names: Xianying
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.DT
 - type: software
   title: jsonlite
@@ -79,7 +82,7 @@ references:
     given-names: Jeroen
     email: jeroenooms@gmail.com
     orcid: https://orcid.org/0000-0002-4035-0289
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.jsonlite
 - type: software
   title: knitr
@@ -92,7 +95,7 @@ references:
     given-names: Yihui
     email: xie@yihui.name
     orcid: https://orcid.org/0000-0003-0645-5666
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.knitr
 - type: software
   title: rmarkdown
@@ -136,7 +139,7 @@ references:
     given-names: Richard
     email: rich@posit.co
     orcid: https://orcid.org/0000-0003-3925-190X
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.rmarkdown
 - type: software
   title: spelling
@@ -152,7 +155,7 @@ references:
   - family-names: Hester
     given-names: Jim
     email: james.hester@rstudio.com
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.spelling
 - type: software
   title: testthat
@@ -164,7 +167,7 @@ references:
   - family-names: Wickham
     given-names: Hadley
     email: hadley@posit.co
-  year: '2024'
+  year: '2025'
   doi: 10.32614/CRAN.package.testthat
   version: '>= 3.0.0'
 

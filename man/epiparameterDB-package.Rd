@@ -11,6 +11,7 @@ A data package containing a database of epidemiological parameters. It stores th
 Useful links:
 \itemize{
   \item \url{https://github.com/epiverse-trace/epiparameterDB/}
+  \item \url{https://epiverse-trace.github.io/epiparameterDB/}
   \item Report bugs at \url{https://github.com/epiverse-trace/epiparameterDB/issues}
 }
 
@@ -22,6 +23,11 @@ Authors:
 \itemize{
   \item Adam Kucharski \email{adam.kucharski@lshtm.ac.uk} (\href{https://orcid.org/0000-0001-8814-9421}{ORCID})
   \item Carmen Tamayo \email{carmen.tamayo-cuartero@lshtm.ac.uk} (\href{https://orcid.org/0000-0003-4184-2864}{ORCID})
+}
+
+Other contributors:
+\itemize{
+  \item London School of Hygiene and Tropical Medicine, LSHTM (00a0jsq62) [copyright holder]
 }
 
 }

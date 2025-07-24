@@ -3,7 +3,7 @@ template:
   package: epiversetheme
 
 development:
-  mode: unreleased
+  mode: auto
 
 reference:
   - title: Package data

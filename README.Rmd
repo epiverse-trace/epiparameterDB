@@ -27,6 +27,8 @@ knitr::opts_chunk$set(
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14514630.svg)](https://doi.org/10.5281/zenodo.14514630)
+[![CRAN status](https://www.r-pkg.org/badges/version/epiparameterDB)](https://CRAN.R-project.org/package=epiparameterDB)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/epiparameterDB)](https://cran.r-project.org/package=epiparameterDB)
 <!-- badges: end -->
 
 `{epiparameterDB}` provides a database of epidemiological parameters. It stores the data for the `{epiparameter}` R package. 

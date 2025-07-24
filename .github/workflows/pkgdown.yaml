@@ -64,12 +64,8 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::remotes, local::.
+          extra-packages: any::pkgdown, local::.
           needs: website
-
-      - name: Install dev pkgdown
-        run: remotes::install_github("r-lib/pkgdown")
-        shell: Rscript {0}
 
       - name: Build site
         run: pkgdown::build_site_github_pages(new_process = FALSE, install = FALSE)
@@ -82,7 +78,7 @@ jobs:
 
       - name: Deploy to GitHub pages 🚀
         if: github.event_name != 'merge_group' && github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4.7.2
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           # We clean on releases because we want to remove old vignettes,
           # figures, etc. that have been deleted from the `main` branch.

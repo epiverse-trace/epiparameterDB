@@ -15,8 +15,15 @@ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.or
 [![Codecov test
 coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14514630.svg)](https://doi.org/10.5281/zenodo.14514630)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/epiparameterDB)](https://CRAN.R-project.org/package=epiparameterDB)
+[![CRAN
+downloads](https://cranlogs.r-pkg.org/badges/epiparameterDB)](https://cran.r-project.org/package=epiparameterDB)
 <!-- badges: end -->
 
 `{epiparameterDB}` provides a database of epidemiological parameters. It

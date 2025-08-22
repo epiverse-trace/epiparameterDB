@@ -6,7 +6,7 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5218-3046")),
     person("Adam", "Kucharski", , "adam.kucharski@lshtm.ac.uk", role = "aut",
            comment = c(ORCID = "0000-0001-8814-9421")),
-    person("Carmen", "Tamayo", , "carmen.tamayo-cuartero@lshtm.ac.uk", role = "aut",
+    person("Carmen", "Tamayo Cuartero", , "carmen.tamayo-cuartero@lshtm.ac.uk", role = "aut",
            comment = c(ORCID = "0000-0003-4184-2864")),
     person("London School of Hygiene and Tropical Medicine, LSHTM", role = "cph",
            comment = c(ROR = "00a0jsq62"))

@@ -45,3 +45,24 @@ jobs:
             error = TRUE
           )
         shell: Rscript {0}
+
+      - name: Install package to load package data
+        run: R CMD INSTALL .
+
+      - name: Check unique idenitifies match within database entries
+        run: |
+          library(epiparameterDB)
+          title <- vapply(
+            epiparameterDB::epiparameterDB,
+            function(x) x$citation$title,
+            FUN.VALUE = "character"
+          )
+          doi <- vapply(
+            epiparameterDB::epiparameterDB,
+            function(x) x$citation$doi,
+            FUN.VALUE = "character"
+          )
+          if (!identical(duplicated(title), duplicated(doi))) {
+            stop("Mismatch between title and DOI in database entries.")
+          }
+        shell: Rscript {0}

@@ -46,6 +46,9 @@ jobs:
           )
         shell: Rscript {0}
 
+      - name: Install package to load package data
+        run: R CMD INSTALL .
+
       - name: Check unique idenitifies match within database entries
         run: |
           library(epiparameterDB)

@@ -48,6 +48,7 @@ jobs:
 
       - name: Check unique idenitifies match within database entries
         run: |
+          library(epiparameterDB)
           title <- vapply(
             epiparameterDB::epiparameterDB,
             function(x) x$citation$title,

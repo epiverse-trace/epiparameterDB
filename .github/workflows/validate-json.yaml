@@ -62,5 +62,7 @@ jobs:
             function(x) x$citation$doi,
             FUN.VALUE = "character"
           )
-          identical(duplicated(title), duplicated(doi))
+          if (!identical(duplicated(title), duplicated(doi))) {
+            stop("Mismatch between title and DOI in database entries.")
+          }
         shell: Rscript {0}

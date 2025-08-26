@@ -45,3 +45,18 @@ jobs:
             error = TRUE
           )
         shell: Rscript {0}
+
+      - name: Check unique idenitifies match within database entries
+        run: |
+          title <- vapply(
+            epiparameterDB::epiparameterDB,
+            function(x) x$citation$title,
+            FUN.VALUE = "character"
+          )
+          doi <- vapply(
+            epiparameterDB::epiparameterDB,
+            function(x) x$citation$doi,
+            FUN.VALUE = "character"
+          )
+          !identical(duplicated(title), duplicated(doi))
+        shell: Rscript {0}

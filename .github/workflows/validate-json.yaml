@@ -62,5 +62,5 @@ jobs:
             function(x) x$citation$doi,
             FUN.VALUE = "character"
           )
-          !identical(duplicated(title), duplicated(doi))
+          identical(duplicated(title), duplicated(doi))
         shell: Rscript {0}

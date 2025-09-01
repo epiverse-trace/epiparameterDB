@@ -119,15 +119,15 @@ languages, but also differs from them in the following aspects:
 citation("epiparameterDB")
 #> To cite package 'epiparameterDB' in publications use:
 #> 
-#>   Lambert J, Kucharski A, Tamayo C (2025). _epiparameterDB: Database of
-#>   Epidemiological Parameters_. R package version 0.1.0.9000,
-#>   <https://github.com/epiverse-trace/epiparameterDB/>.
+#>   Lambert J, Kucharski A, Tamayo Cuartero C (2025). _epiparameterDB:
+#>   Database of Epidemiological Parameters_. R package version
+#>   0.1.0.9000, <https://github.com/epiverse-trace/epiparameterDB/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {epiparameterDB: Database of Epidemiological Parameters},
-#>     author = {Joshua W. Lambert and Adam Kucharski and Carmen Tamayo},
+#>     author = {Joshua W. Lambert and Adam Kucharski and Carmen {Tamayo Cuartero}},
 #>     year = {2025},
 #>     note = {R package version 0.1.0.9000},
 #>     url = {https://github.com/epiverse-trace/epiparameterDB/},

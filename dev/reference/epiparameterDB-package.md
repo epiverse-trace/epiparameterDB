@@ -30,5 +30,5 @@ Authors:
 
 Other contributors:
 
-- London School of Hygiene and Tropical Medicine, LSHTM (00a0jsq62)
-  \[copyright holder\]
+- London School of Hygiene and Tropical Medicine, LSHTM
+  ([ROR](https://ror.org/00a0jsq62)) \[copyright holder\]

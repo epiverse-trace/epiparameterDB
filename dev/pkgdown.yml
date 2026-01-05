@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   database: database.html
   design-principles: design-principles.html
-last_built: 2025-12-01T16:05Z
+last_built: 2026-01-05T13:30Z
 urls:
   reference: https://epiverse-trace.github.io/epiparameterDB/reference
   article: https://epiverse-trace.github.io/epiparameterDB/articles

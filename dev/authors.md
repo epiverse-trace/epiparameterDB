@@ -19,14 +19,14 @@
 Source:
 [`DESCRIPTION`](https://github.com/epiverse-trace/epiparameterDB/blob/main/DESCRIPTION)
 
-Lambert J, Kucharski A, Tamayo Cuartero C (2025). *epiparameterDB:
+Lambert J, Kucharski A, Tamayo Cuartero C (2026). *epiparameterDB:
 Database of Epidemiological Parameters*. R package version 0.1.0.9000,
 <https://github.com/epiverse-trace/epiparameterDB/>.
 
     @Manual{,
       title = {epiparameterDB: Database of Epidemiological Parameters},
       author = {Joshua W. Lambert and Adam Kucharski and Carmen {Tamayo Cuartero}},
-      year = {2025},
+      year = {2026},
       note = {R package version 0.1.0.9000},
       url = {https://github.com/epiverse-trace/epiparameterDB/},
     }

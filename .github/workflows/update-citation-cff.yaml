@@ -8,9 +8,9 @@ on:
     branches:
       - main
     paths:
-      - DESCRIPTION
-      - inst/CITATION
-      - .github/workflows/update-citation-cff.yaml
+      - 'DESCRIPTION'
+      - 'inst/CITATION'
+      - '.github/workflows/update-citation-cff.yaml'
   workflow_dispatch:
 
 name: Update CITATION.cff
@@ -55,5 +55,6 @@ jobs:
           body: |
             This pull request updates the citation file, ensuring all authors are credited and there are no discrepancies.
 
-            Please verify the changes before merging. 
+            Please verify the changes before merging.
           branch: update-citation-cff
+          add-paths: CITATION.cff

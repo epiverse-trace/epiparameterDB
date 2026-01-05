@@ -27,7 +27,7 @@ Authors:
 
 Other contributors:
 \itemize{
-  \item London School of Hygiene and Tropical Medicine, LSHTM (00a0jsq62) [copyright holder]
+  \item London School of Hygiene and Tropical Medicine, LSHTM (\href{https://ror.org/00a0jsq62}{ROR}) [copyright holder]
 }
 
 }

@@ -9,7 +9,7 @@
 
 A \code{list} of epidemiological parameters read from \code{extdata/parameters.json}
 with 133 database entries. The object
-is tagged with the class attribute \verb{<epiparamterDB>} to validate the
+is tagged with the class attribute \verb{<epiparameterDB>} to validate the
 parameter library has been loaded using the \code{{epiparameterDB}} package.
 }
 }

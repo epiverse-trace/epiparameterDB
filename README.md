@@ -10,7 +10,7 @@
 <!-- badges: start -->
 
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
+CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-violet.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![R-CMD-check](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
@@ -119,7 +119,7 @@ languages, but also differs from them in the following aspects:
 citation("epiparameterDB")
 #> To cite package 'epiparameterDB' in publications use:
 #> 
-#>   Lambert J, Kucharski A, Tamayo Cuartero C (2025). _epiparameterDB:
+#>   Lambert J, Kucharski A, Tamayo Cuartero C (2026). _epiparameterDB:
 #>   Database of Epidemiological Parameters_. R package version
 #>   0.1.0.9000, <https://github.com/epiverse-trace/epiparameterDB/>.
 #> 
@@ -128,7 +128,7 @@ citation("epiparameterDB")
 #>   @Manual{,
 #>     title = {epiparameterDB: Database of Epidemiological Parameters},
 #>     author = {Joshua W. Lambert and Adam Kucharski and Carmen {Tamayo Cuartero}},
-#>     year = {2025},
+#>     year = {2026},
 #>     note = {R package version 0.1.0.9000},
 #>     url = {https://github.com/epiverse-trace/epiparameterDB/},
 #>   }

@@ -14,5 +14,5 @@ epiparameterDB
 
 A `list` of epidemiological parameters read from
 `extdata/parameters.json` with 133 database entries. The object is
-tagged with the class attribute `<epiparamterDB>` to validate the
+tagged with the class attribute `<epiparameterDB>` to validate the
 parameter library has been loaded using the `{epiparameterDB}` package.

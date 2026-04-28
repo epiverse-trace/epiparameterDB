@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 # `{epiparameterDB}` <img src="man/figures/logo.svg" align="right" width="120" alt="" />
 
 <!-- badges: start -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-violet.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![R-CMD-check](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/epiverse-trace/epiparameterDB/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/epiverse-trace/epiparameterDB/branch/main/graph/badge.svg)](https://app.codecov.io/gh/epiverse-trace/epiparameterDB?branch=main)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)

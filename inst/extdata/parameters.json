@@ -70,7 +70,7 @@
   },
   {
     "disease": "Human Coronavirus",
-    "pathogen": "Human_Cov",
+    "pathogen": "Human Coronavirus",
     "epi_name": "incubation period",
     "probability_distribution": {
       "prob_distribution": "lnorm",
@@ -139,7 +139,7 @@
   },
   {
   "disease": "SARS",
-  "pathogen": "SARS-Cov-1",
+  "pathogen": "SARS-CoV-1",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -2253,7 +2253,7 @@
 },
 {
   "disease": "SARS",
-  "pathogen": "SARS-Cov-1",
+  "pathogen": "SARS-CoV-1",
   "epi_name": "offspring distribution",
   "probability_distribution": {
     "prob_distribution": "nbinom",
@@ -2312,7 +2312,7 @@
 },
 {
   "disease": "SARS",
-  "pathogen": "SARS-Cov-1",
+  "pathogen": "SARS-CoV-1",
   "epi_name": "offspring distribution",
   "probability_distribution": {
     "prob_distribution": "nbinom",
@@ -3612,7 +3612,7 @@
 },
 {
   "disease": "Yellow Fever",
-  "pathogen": "Yellow Fever Viruses",
+  "pathogen": "Yellow Fever Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -3677,7 +3677,7 @@
 },
 {
   "disease": "Yellow Fever",
-  "pathogen": "Yellow Fever Viruses",
+  "pathogen": "Yellow Fever Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -3743,7 +3743,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -3836,7 +3836,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -3936,7 +3936,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -4037,7 +4037,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -4167,7 +4167,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -4297,7 +4297,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -4427,7 +4427,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -7712,7 +7712,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -7830,7 +7830,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": "lnorm",
@@ -7948,7 +7948,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "onset to hospitalisation",
   "probability_distribution": {
     "prob_distribution": null,
@@ -8064,7 +8064,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "onset to death",
   "probability_distribution": {
     "prob_distribution": null,
@@ -8180,7 +8180,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "onset to ventilation",
   "probability_distribution": {
     "prob_distribution": null,
@@ -8296,7 +8296,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "onset to death",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -8363,7 +8363,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -8432,7 +8432,7 @@
 },
 {
   "disease": "MERS",
-  "pathogen": "MERS-Cov",
+  "pathogen": "MERS-CoV",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -10601,7 +10601,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": "gamma",
@@ -10673,7 +10673,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus Clade I",
+  "pathogen": "Monkeypox Virus Clade I",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": null,
@@ -10745,7 +10745,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "serial interval",
   "probability_distribution": {
     "prob_distribution": null,
@@ -10817,7 +10817,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus Clade I",
+  "pathogen": "Monkeypox Virus Clade I",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,
@@ -10889,7 +10889,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus Clade IIa",
+  "pathogen": "Monkeypox Virus Clade IIa",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,
@@ -10961,7 +10961,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus Clade IIb",
+  "pathogen": "Monkeypox Virus Clade IIb",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,
@@ -11033,7 +11033,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,
@@ -11129,7 +11129,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,
@@ -11225,7 +11225,7 @@
 },
 {
   "disease": "Mpox",
-  "pathogen": "Mpox Virus",
+  "pathogen": "Monkeypox Virus",
   "epi_name": "incubation period",
   "probability_distribution": {
     "prob_distribution": null,

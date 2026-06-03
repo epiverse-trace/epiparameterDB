@@ -2451,7 +2451,7 @@
   "disease": "Smallpox",
   "pathogen": {
     "species": "Variola Virus",
-    "subtype": "Major"
+    "clade": "Major"
   },
   "epi_name": "offspring distribution",
   "probability_distribution": {
@@ -2513,7 +2513,7 @@
   "disease": "Smallpox",
   "pathogen": {
     "species": "Variola Virus",
-    "subtype": "Major"
+    "clade": "Major"
   },
   "epi_name": "offspring distribution",
   "probability_distribution": {
@@ -2575,7 +2575,7 @@
   "disease": "Smallpox",
   "pathogen": {
     "species": "Variola Virus",
-    "subtype": "Minor"
+    "clade": "Minor"
   },
   "epi_name": "offspring distribution",
   "probability_distribution": {
@@ -2637,7 +2637,7 @@
   "disease": "Smallpox",
   "pathogen": {
     "species": "Variola Virus",
-    "subtype": "Minor"
+    "clade": "Minor"
   },
   "epi_name": "offspring distribution",
   "probability_distribution": {
@@ -4698,8 +4698,7 @@
 {
   "disease": "Ebola Virus Disease",
   "pathogen": {
-    "species": "Ebola Virus",
-    "subtype": "Zaire"
+    "species": "Zaire Ebola Virus"
   },
   "epi_name": "incubation period",
   "probability_distribution": {
@@ -4752,8 +4751,7 @@
 {
   "disease": "Ebola Virus Disease",
   "pathogen": {
-    "species": "Ebola Virus",
-    "subtype": "Zaire"
+    "species": "Zaire Ebola Virus"
   },
   "epi_name": "onset to death",
   "probability_distribution": {

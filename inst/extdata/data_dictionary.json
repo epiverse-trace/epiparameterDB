@@ -12,9 +12,32 @@
         "type": "string"
       },
       "pathogen": {
-        "description": "Causative agent of disease specified in study. NA if not specified in study.",
-        "examples": ["SARS-CoV-2", "Monkeypox Virus"],
-        "type": ["string", "null"]
+        "type": "object",
+        "propertyNames": {
+          "enum": ["species", "subtype", "clade", "variant"]
+        },
+        "properties": {
+          "species": {
+            "description": "Causative agent of disease specified in study. NA if not specified in study.",
+            "examples": ["SARS-CoV-2", "Monkeypox Virus"],
+            "type": ["string", "null"]
+          },
+          "subtype": {
+            "description": "Classification or sub-grouping within a specific viral or bacterial species, categorised based on variations in their physical characteristics, surface proteins (antigens), or specific genetic sequences",
+            "examples": ["H1N1", "H5N1"],
+            "type": ["string", "null"]
+          },
+          "clade": {
+            "description": "A pathogen clade is a distinct evolutionary group of organisms that includes a single common ancestor.",
+            "examples": ["Clade-I", "Clade-IIb"],
+            "type": ["string", "null"]
+          },
+          "variant": {
+            "description": "A pathogen variant is an isolate or group of isolates belonging to a specific pathogen species that has accumulated one or more unique genetic mutations distinguishing it from the original reference or wild-type genome sequence.",
+            "examples": ["alpha", "B.1.1.7"],
+            "type": ["string", "null"]
+          }
+        }
       },
       "epi_name": {
         "description": "The name of the epidemiological parameter type. Names should be whitespace separated within each string.",

@@ -1,10 +1,10 @@
-pandoc: 3.1.11
-pkgdown: 2.2.0
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   database: database.html
   design-principles: design-principles.html
-last_built: 2026-04-28T15:32Z
+last_built: 2026-09-15T11:14Z
 urls:
   reference: https://epiverse-trace.github.io/epiparameterDB/reference
   article: https://epiverse-trace.github.io/epiparameterDB/articles

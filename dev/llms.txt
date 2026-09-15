@@ -27,6 +27,7 @@ You can install
 CRAN with:
 
 ``` r
+
 install.packages("epiparameterDB")
 ```
 
@@ -35,6 +36,7 @@ You can install the development version of
 [GitHub](https://github.com/) with:
 
 ``` r
+
 # install.packages("pak")
 pak::pak("epiverse-trace/epiparameterDB")
 ```
@@ -42,6 +44,7 @@ pak::pak("epiverse-trace/epiparameterDB")
 ## Usage
 
 ``` r
+
 library(epiparameterDB)
 data(package = "epiparameterDB")
 ```
@@ -99,6 +102,7 @@ languages, but also differs from them in the following aspects:
 ## Citing this package
 
 ``` r
+
 citation("epiparameterDB")
 #> To cite package 'epiparameterDB' in publications use:
 #> 
